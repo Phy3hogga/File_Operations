@@ -1,4 +1,4 @@
-%% Finds all files with a given file extension within a series of directories
+%% Finds all sub-directories within a series of directories
 %:Inputs:
 % - Directories (cell array) ; List of directories to look for subdirectories within
 %:Outputs:
