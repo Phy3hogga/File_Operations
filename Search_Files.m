@@ -72,6 +72,6 @@ function File_List = Search_Files(Directories, Desired_File_Extension)
     
     %% Verify output
     if(~exist('File_List','var'))
-        File_List = struct();
+        File_List = struct('name', {}, 'folder', {}, 'date', {}, 'bytes', {}, 'isdir', {}, 'datenum', {});
     end
 end
